@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="General">
+        <menu>
+
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home"
+                android:title="Home" />
+            <item
+                android:id="@+id/packages"
+                android:icon="@drawable/ic_package"
+                android:title="Packages" />
+            <item
+                android:id="@+id/technology"
+                android:icon="@drawable/ic_technology"
+                android:title="Technology" />
+            <item
+                android:id="@+id/location"
+                android:icon="@drawable/ic_location"
+                android:title="Locations" />
+            <item
+                android:id="@+id/pau"
+                android:icon="@drawable/ic_dollar"
+                android:title="PAU (Pay As You Use)" />
+        </menu>
+    </item>
+    <item android:title="Support">
+
+        <menu >
+            <item
+                android:id="@+id/rate_app"
+                android:icon="@drawable/ic_star"
+                android:title="Rate App" />
+            <item
+                android:id="@+id/share_app"
+                android:icon="@drawable/ic_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_phone"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic__about_us"
+                android:title="About Us" />
+        </menu>
+    </item>
+    <item android:title="Logout">
+
+        <menu >
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_key"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
